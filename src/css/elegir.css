@@ -1,0 +1,94 @@
+body{
+    background: #DFDFDF;
+}
+
+.text{
+    color: #B5978A ;
+    font-size: 45px;
+    margin-left: 40px;
+    font-family: "Space Mono", monospace;
+}
+
+.contenedor{
+    width: 100%;
+
+    height: 65vh;
+    margin-top: 70px;
+    display: flex;
+    position: relative;
+    padding-top: 50px;
+}
+
+.candidatos{
+    width: 25%;
+    height: 50vh;
+    position:relative;
+    display:block;
+    margin: 5%;
+    margin-top:5%;
+    background: #ffff;
+    border-radius: 20px;
+}
+
+.contain-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 20%;
+    background: #ffff;
+    margin-top: -128px;
+    text-align: center;
+
+}
+.img{
+    width: 160px;
+    height: 160px;
+    background-image: url(../Multimedios/Imagenes/presidente\ 1.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+.titulo{
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    font-family: "Space Mono", monospace;
+
+}
+.sub-titulo{
+    color: #0453F1;
+    width: 85%;
+    margin-left: 7.5%;
+}
+.parrafo{
+    width: 85%;
+    margin-left: 7.5%;
+ font-size: 13.5px;
+ text-align: justify;
+ font-family: "Arial", sans-serif;
+
+}
+
+.boton{
+    width: 60%;
+    margin-left: 20%;
+    height: 5vh;
+    background: #0097B2;
+    color: #ffff;
+    font-family: "Arial", sans-serif;
+    border: none;
+    margin-top: 20px;
+}
+
+.boton:hover{
+    width: 60%;
+    margin-left: 20%;
+    height: 5vh;
+    background: #41cee7;
+    color: #ffff;
+    font-family: "Arial", sans-serif;
+    border: none;
+    margin-top: 20px;
+
+}

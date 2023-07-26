@@ -1,0 +1,83 @@
+body{
+    background: #DFDFDF;
+}
+
+.container{
+    width:100% ;
+    height: 60vh;
+    display: flex;
+   
+}
+
+.opciones{
+    width: 30%;
+    height:max-content;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: -10px;
+
+
+}
+  img{
+    margin-top: 30px;
+    width: 40%;
+  }
+  
+
+h2{
+    font-size: 50px;
+    color: #B5978A;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: 'Space Mono';
+}
+
+h3{
+    font-size: 21px;
+    font-family: 'Space Mono';
+    margin-top: -1px;
+}
+p{
+   width: 68%;
+   margin-left: 16%;
+   text-align: center;
+   font-family: 'Inter', Arial, sans-serif;
+   font-size: 13.5px;
+   margin-top: -6px;
+
+}
+
+.card{
+    width:80%;
+    height: 53vh;
+    margin-left: 10%;
+    margin-top: 10%;
+    background: #ffff;
+    border-radius: 10%;
+    margin-left: 15%;
+    
+}
+
+/* estilos del boton*/
+button{
+    background: #0453f1;
+    color: white;
+    border: none;
+    width: 60%;
+    height: 6vh;
+    border-radius: 10px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: bold;
+}
+
+button:hover{
+background: #49669e;
+    color: white;
+    border: none;
+    width: 60%;
+    height: 6.2vh;
+    border-radius: 10px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: bold;
+}
+
